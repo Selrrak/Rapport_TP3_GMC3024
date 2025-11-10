@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.5)  6 NOV 2025 12:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.5)  10 NOV 2025 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -673,21 +673,7 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 34.
-
-
-./Rapport_tp3.tex:47: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \date
-          {2025-11-06}                   % Sets the document date.
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+ (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 Package csquotes Info: Checking for multilingual support...
@@ -839,7 +825,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 57.
-<./assets/Université_Laval_logo_et_texte.svg.png, id=60, 2569.6pt x 1116.17pt>
+<./assets/Université_Laval_logo_et_texte.svg.png, id=4, 2569.6pt x 1116.17pt>
 File: ./assets/Université_Laval_logo_et_texte.svg.png Graphic file (type png)
 <use ./assets/Université_Laval_logo_et_texte.svg.png>
 Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 65.
@@ -848,14 +834,7 @@ Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./assets/Université_Laval_logo_et_texte.svg.png>] (./Rapport_tp3.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./assets/Université_Laval_logo_et_texte.svg.png>] (./Rapport_tp3.toc)
 \tf@toc=\write6
 \openout6 = `Rapport_tp3.toc'.
 
@@ -871,100 +850,15 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 87
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-./Rapport_tp3.tex:91: You can't use `macro parameter character #' in horizontal mode.
-l.91 	\item Tableau de nomenclature (#
-                                      bulle, qté, description)
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 115.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-[1{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./Rapport_tp3.lot)
-\tf@lot=\write7
-\openout7 = `Rapport_tp3.lot'.
-
-
-
-[2]
-
-[3]
-<assets/dhlab-logo-black.png, id=119, 611.28375pt x 206.27063pt>
-File: assets/dhlab-logo-black.png Graphic file (type png)
-<use assets/dhlab-logo-black.png>
-Package pdftex.def Info: assets/dhlab-logo-black.png  used on input line 194.
-(pdftex.def)             Requested size: 455.24411pt x 153.61671pt.
-File: assets/dhlab-logo-black.png Graphic file (type png)
-<use assets/dhlab-logo-black.png>
-Package pdftex.def Info: assets/dhlab-logo-black.png  used on input line 208.
-(pdftex.def)             Requested size: 227.62206pt x 76.80678pt.
- (./Rapport_tp3.lof)
-\tf@lof=\write8
-\openout8 = `Rapport_tp3.lof'.
-
-
-
-[4 <./assets/dhlab-logo-black.png>]
-\pydata@fh@_7A0CD9ECF55ED98791FDEC165DD21AF5.data.minted=\write9
-\openout9 = `_7A0CD9ECF55ED98791FDEC165DD21AF5.data.minted'.
-
-runsystem(latexminted config  --timestamp 20251106124308 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
-
- (./_7A0CD9ECF55ED98791FDEC165DD21AF5.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20251106124308 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
-
- (./_minted/default.style.minted) (./_minted/92CFFB8B2AA6F0E93610A40FCA41F976.highlight.minted
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 5.
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 6.
- (/usr/share/texmf-dist/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-
-LaTeX Warning: Citation 'abdullahlajamPerformanceEvaluationIPFS2021' on page 5 undefined on input line 252.
-
-
-Overfull \hbox (126.6478pt too wide) in paragraph at lines 252--253
-[]\T1/lmr/m/n/12 Authors X and Y say a lot of things about many top-ics ([]). 
+Overfull \hbox (26.90302pt too wide) in paragraph at lines 107--107
+[]\T1/lmr/bx/n/14.4 Seulement il-lus-tra-tion des tol�rances g�om�triques de l'int�rieur
  []
 
 
-LaTeX Warning: Citation 'alniamyAttributebasedAccessControl2020' on page 5 undefined on input line 254.
 
+[1{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-Overfull \hbox (121.46167pt too wide) in paragraph at lines 254--255
-[]\T1/lmr/m/n/12 These guys also talk about in-ter-est-ing stuff on cer-tain pages ([]). 
- []
-
-
-LaTeX Warning: Citation 'abdullahlajamPerformanceEvaluationIPFS2021' on page 5 undefined on input line 256.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 256.
-
-
-
-[5]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 258.
-
-
-LaTeX Warning: Citation 'gauthierReligionModernityGlobalisation2019' on page 6 undefined on input line 258.
-
-
-LaTeX Warning: Citation 'gauthierReligionModernityGlobalisation2019' on page 6 undefined on input line 260.
-
-
-
-[6]
-
-[7]
-
-LaTeX Warning: Empty bibliography on input line 287.
+LaTeX Warning: Empty bibliography on input line 123.
 
 (./Rapport_tp3.aux)
  ***********
@@ -975,8 +869,17 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Rapport_tp3.out' has not changed.
-(rerunfilecheck)             Checksum: C3F47378513E641A02ABF2F4BD2EA869;2377.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Rapport_tp3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Rapport_tp3.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  76E608AE43947EE86219ACA2205D6188;2170.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Rapport_tp3
@@ -987,30 +890,18 @@ Package logreq Info: Writing requests to 'Rapport_tp3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25731 strings out of 475142
- 500070 string characters out of 5765946
- 1541232 words of memory out of 5000000
- 48367 multiletter control sequences out of 15000+600000
- 628479 words of font info for 78 fonts, out of 8000000 for 9000
+ 25128 strings out of 475142
+ 488961 string characters out of 5765946
+ 1538765 words of memory out of 5000000
+ 47833 multiletter control sequences out of 15000+600000
+ 589336 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,8n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Rapport_tp3.pdf (9 pages, 522359 bytes).
+ 75i,6n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
+Output written on Rapport_tp3.pdf (3 pages, 269908 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
