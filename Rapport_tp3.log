@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.5)  10 NOV 2025 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.5)  10 NOV 2025 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -825,7 +825,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 57.
-<./assets/Université_Laval_logo_et_texte.svg.png, id=4, 2569.6pt x 1116.17pt>
+<./assets/Université_Laval_logo_et_texte.svg.png, id=44, 2569.6pt x 1116.17pt>
 File: ./assets/Université_Laval_logo_et_texte.svg.png Graphic file (type png)
 <use ./assets/Université_Laval_logo_et_texte.svg.png>
 Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 65.
@@ -834,7 +834,14 @@ Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./assets/Université_Laval_logo_et_texte.svg.png>] (./Rapport_tp3.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./assets/Université_Laval_logo_et_texte.svg.png>] (./Rapport_tp3.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write6
 \openout6 = `Rapport_tp3.toc'.
 
@@ -858,50 +865,38 @@ Overfull \hbox (26.90302pt too wide) in paragraph at lines 107--107
 
 [1{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-LaTeX Warning: Empty bibliography on input line 123.
+[2{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+
+[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+
+LaTeX Warning: Empty bibliography on input line 165.
+
+runsystem(latexminted cleantemp  --timestamp 20251110163722 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
 
 (./Rapport_tp3.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Rapport_tp3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Rapport_tp3.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  76E608AE43947EE86219ACA2205D6188;2170.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Rapport_tp3
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `Rapport_tp3.out' has not changed.
+(rerunfilecheck)             Checksum: D6F402F37FA50F7F337AB94DFC4C6975;2581.
 Package logreq Info: Writing requests to 'Rapport_tp3.run.xml'.
 \openout1 = `Rapport_tp3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25128 strings out of 475142
- 488961 string characters out of 5765946
- 1538765 words of memory out of 5000000
- 47833 multiletter control sequences out of 15000+600000
- 589336 words of font info for 55 fonts, out of 8000000 for 9000
+ 25163 strings out of 475142
+ 489363 string characters out of 5765946
+ 1543841 words of memory out of 5000000
+ 47856 multiletter control sequences out of 15000+600000
+ 603135 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,6n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on Rapport_tp3.pdf (3 pages, 269908 bytes).
+ 75i,8n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
+Output written on Rapport_tp3.pdf (5 pages, 303677 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
