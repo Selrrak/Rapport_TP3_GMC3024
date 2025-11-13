@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  13 NOV 2025 06:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  13 NOV 2025 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -825,7 +825,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 57.
-<./assets/Université_Laval_logo_et_texte.svg.png, id=56, 2569.6pt x 1116.17pt>
+<./assets/Université_Laval_logo_et_texte.svg.png, id=68, 2569.6pt x 1116.17pt>
 File: ./assets/Université_Laval_logo_et_texte.svg.png Graphic file (type png)
 <use ./assets/Université_Laval_logo_et_texte.svg.png>
 Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 65.
@@ -868,37 +868,74 @@ Overfull \hbox (26.90302pt too wide) in paragraph at lines 107--107
 [2{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 
 [3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+./Rapport_tp3.tex:210: Undefined control sequence.
+l.210 	\varepsilon_{\text
+                         {max}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Rapport_tp3.tex:210: Undefined control sequence.
+l.210 ...on_{\text{max}} = 0.2\,\varepsilon_{\text
+                                                  {ruptureXY}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Rapport_tp3.tex:210: Extra }, or forgotten $.
+l.210 ...}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
 
 [4]
 
-LaTeX Warning: Empty bibliography on input line 192.
+[5]
 
-runsystem(latexminted cleantemp  --timestamp 20251113061925 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
+LaTeX Warning: Empty bibliography on input line 236.
+
+runsystem(latexminted cleantemp  --timestamp 20251113111419 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
 
 (./Rapport_tp3.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `Rapport_tp3.out' has not changed.
-(rerunfilecheck)             Checksum: A050655E73DF946563F735253EC9BFD8;2904.
+
+
+Package rerunfilecheck Warning: File `Rapport_tp3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Rapport_tp3.out':
+(rerunfilecheck)             Before: 7CD3934F290F71C9DAFDC990AC4C069F;3227
+(rerunfilecheck)             After:  36EA26BFDF59C483EBE5076369251635;3619.
 Package logreq Info: Writing requests to 'Rapport_tp3.run.xml'.
 \openout1 = `Rapport_tp3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25180 strings out of 475142
- 489676 string characters out of 5765945
- 1542844 words of memory out of 5000000
- 47863 multiletter control sequences out of 15000+600000
+ 25196 strings out of 475142
+ 489905 string characters out of 5765945
+ 1543847 words of memory out of 5000000
+ 47866 multiletter control sequences out of 15000+600000
  603135 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,8n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Rapport_tp3.pdf (6 pages, 323274 bytes).
+Output written on Rapport_tp3.pdf (7 pages, 329681 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -127,7 +127,7 @@
 		Diamètre du fond de rainure sur le piston & PG & N/A\\
 		Diamètre intérieur du joint torique & ID & N/A\\
 		Volume du joint torique & OVol & N/A\\
-		Pourcentage de remplissage de la rainure & Fill\% & N/A\\
+		Pourcentage de remplissage de la rainure & Fill\% & 65\%\\
 		Volume de la rainure & GVol & N/A\\
 		Largeur de la rainure & G & N/A\\
 		\hline
@@ -149,43 +149,87 @@
 	SQ\% = (\frac{WR - F}{W})*100\% 
 \end{equation}
 
-\[SQ\% = (\frac{2,56 - 2}{2,62})*100\% = 21,16\%  \]
+\[ F = (WR - \frac{SQ\%}{100\%})*W \]
 
-
-\[SQ\% = (\frac{2,56 - 2}{2,62})*100\% = 21,16\%  \]
-
-
+\[ F = (2,56 - \frac{21\%}{100\%})*2,62 = 2,00 mm  \]
 
 \begin{equation}
 	F = (\frac{BORE-PG}{2}) 
 \end{equation}
-\[ F = (\frac{38-34}{2}) = 2 mm \]
+\[PG = BORE - 2F\]
+\[PG = 38 - 2*2 = 34 mm\]
 
 \begin{equation}
 	Stretch\% = (\frac{PG -ID}{ID})*100\%
 \end{equation}
 \[ ID = \frac{PG}{(\frac{Stretch\%}{100})+1} \] 
-\[ ID = \frac{34}{(\frac{Stretch\%}{100})+1} \]
+\[ ID = \frac{34}{(\frac{5\%}{100})+1} = 32,38 mm \]
 
+\begin{equation}
+	OVol = \frac{(\pi)^2}{4}*(ID+W)*W^2
+\end{equation}
 
-\subsection{Encliquetage}
+\[ OVol = \frac{(\pi)^2}{4}*(32,38+2,62)*2,62^2 = 592,82 mm^3 \] 
+
+\begin{equation}
+	Fill\% = \frac{OVol}{GVol}*100\%
+\end{equation}
+\[ GVol = \frac{100\%*OVol}{Fill\%} \]
+\[ GVol = \frac{100\%*592,82}{65\%} = 912,03 mm^3 \] 
+
+\begin{equation}
+	GVol = \frac{\pi}{4}*(BORE^2 - PG^2)*G
+\end{equation}
+\[ G = \frac{4*GVol}{\pi*(BORE^2 - PG^2)} \]
+\[ G = \frac{4*912,3}{\pi*(38^2 - 34^2)} = 4,32 mm \]
+
+\subsection{Pièce encliquetée}
+\subsubsection{DCL}
+\subsubsection{Questions techniques et description des calculs}
+\subsubsection{données techniques}
 \begin{center}
 	\begin{tabular}{|c c c|}
 		\hline
 		Paramètre & symbole & valeur de base\\
 		\hline
 		Déformation à la rupture & $\varepsilon_{ruptureXY}$ & 16\%\\
-		Déformation maximale & $\varepsilon_{max}$ & 0\\
-		Longueur des faisceaux & L & 0\\
-		Diamètre de la pièce encliquetée & D1 & 0\\
-		Diamètre au crochet & D2 & 0\\
-		Espacement entre les deux faisceaux & d & 0\\
-		Largeur d'un faisceau & $h_{0}$ & 0\\
-		Déflection maximale des faisceaux & Y & 0\\
-		Facteur de sécurité & n & 0\\
+		Déformation maximale & $\varepsilon_{max}$ & N/A\\
+		Longueur des faisceaux & L & 11 mm\\
+		Diamètre au crochet & D1 & 8 mm\\
+		Diamètre de la pièce encliquetée & D2 & 6 mm\\
+		Espacement entre les deux faisceaux & d & 2,2 mm\\
+		Largeur d'un faisceau & $h_{0}$ & N/A\\
+		Déflection maximale des faisceaux & Y & N/A\\
+		Déformation lors de l'encliquetage & $\varepsilon$ & N/A\\
+		Facteur de sécurité & n & N/A\\
 		\hline
 	\end{tabular}
 \end{center}
+\subsubsection{équations}
+\begin{equation}
+	\varepsilon_{\text{max}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
+\end{equation}
+\[ \varepsilon_{max} = 20\% * 16\% = 3,2\% \]
+
+\begin{equation}
+	h_{0} = \frac{D2-d}{2}
+\end{equation}
+\[ h_{0} = \frac{6-2,2}{2} = 1,9 mm \]
+
+\begin{equation}
+	Y = \frac{d}{2}
+\end{equation}
+\[ Y = \frac{2,2}{2} = 1,1 mm \]
+
+\begin{equation}
+	\varepsilon = \frac{3*Y*h_{0}}{2*L^2}
+\end{equation}
+\[ \varepsilon = \frac{3*1,1*1,9}{2*11^2} = 2,59\% \]
+
+\begin{equation}
+	n = \frac{\varepsilon}{\varepsilon_{max}}
+\end{equation}
+\[ n = \frac{2,59}{3,2} = 1,235 > 1 \]
 
 \newpage{}
 
