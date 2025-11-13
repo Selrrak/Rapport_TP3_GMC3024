@@ -1,14 +1,15 @@
 # Fdb version 4
-["biber Rapport_tp3"] 1762807035.43672 "Rapport_tp3.bcf" "Rapport_tp3.bbl" "Rapport_tp3" 1762810643.87722 2
-  "Rapport_tp3.bcf" 1762810643.83297 133726 8c8e444fc192e97110f5fe1eaac9d2be "pdflatex"
+["biber Rapport_tp3"] 1763032227.70158 "Rapport_tp3.bcf" "Rapport_tp3.bbl" "Rapport_tp3" 1763032766.27885 2
+  "Rapport_tp3.bcf" 1763032766.2371 133726 8c8e444fc192e97110f5fe1eaac9d2be "pdflatex"
   "assets/bib-template.bib" 1762468306 1774 d6ef56c2835526b1ae1db5a6500d3a5b ""
   (generated)
   "Rapport_tp3.bbl"
   "Rapport_tp3.blg"
   (rewritten before read)
-["pdflatex"] 1762810642.7436 "Rapport_tp3.tex" "Rapport_tp3.pdf" "Rapport_tp3" 1762810643.8775 0
+["pdflatex"] 1763032765.27353 "Rapport_tp3.tex" "Rapport_tp3.pdf" "Rapport_tp3" 1763032766.27911 0
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1755987285 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1755987285 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
+  "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1755987285 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1755987285 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1755987285 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1755987285 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -39,6 +40,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1755987285 113634 f99c44d58bae0863375faf0e1d74d612 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb" 1755987285 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
   "/usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb" 1755987285 122174 a7a08406857c9530a0320a2517f60370 ""
+  "/usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb" 1755987285 27863 09ce3735688ffde955e72da27c95b61a ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1755987285 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1755987285 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texmf-dist/tex/generic/babel-english/english.ldf" 1755987285 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -144,14 +146,14 @@
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1755987285 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1755987285 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762318898 5306915 16c0977750255d6fec924bb2d750f2c3 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762318879 2015175 7303661753867054989602282e83b5c2 ""
-  "Rapport_tp3.aux" 1762810643.82997 1856 5c2ff5ee0d865cb5d11d3a50f13f1692 "pdflatex"
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762960062 5306915 16c0977750255d6fec924bb2d750f2c3 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762960054 2015179 a83f104292531e5b1e98fec7df04dae8 ""
+  "Rapport_tp3.aux" 1763032766.2351 2232 9a164b662baf7d7f45a8cbbbc56c4935 "pdflatex"
   "Rapport_tp3.bbl" 0 -1 0 "biber Rapport_tp3"
-  "Rapport_tp3.out" 1762810643.83197 2581 d6f402f37fa50f7f337ab94dfc4c6975 "pdflatex"
-  "Rapport_tp3.run.xml" 1762810643.83402 2485 653d560b8cbdd197c14bdd3890c4ce79 "pdflatex"
-  "Rapport_tp3.tex" 1762810641.903 7144 b8a80369e2a606744222ae34872daf6a ""
-  "Rapport_tp3.toc" 1762810643.83402 1036 f88d25eac932d29110f32a440d897be0 "pdflatex"
+  "Rapport_tp3.out" 1763032766.2361 2904 a050655e73df946563f735253ec9bfd8 "pdflatex"
+  "Rapport_tp3.run.xml" 1763032766.23909 2485 653d560b8cbdd197c14bdd3890c4ce79 "pdflatex"
+  "Rapport_tp3.tex" 1763032763.99694 7613 7d93eb6c899876b937661a09cc0a3c9f ""
+  "Rapport_tp3.toc" 1763032766.23909 1289 183c0aa85700ccbcba9b51f5b50a9ab2 "pdflatex"
   "assets/Université_Laval_logo_et_texte.svg.png" 1762450438.86137 201828 e4cd0b265a5352e99c16d6148ae38af3 ""
   (generated)
   "Rapport_tp3.aux"

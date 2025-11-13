@@ -107,38 +107,65 @@
 \subsection{Seulement illustration des tolérances géométriques de l'intérieur du cylindre vs l'axe du pivot du levier}
 
 \section{rapport PolyWorks sur tolérance géométrqiue de l'axe du levier}
-
-%LaTeX supports a variety of formatting options:
-%\emph{You can write in italics.}
-%\textbf{Or bold.}
-%\textbf{\emph{Or both at the same time.}}
-%You can also superscript\textsuperscript{text} or subscript\textsubscript{text}.
-%You can also write lists (unordered or ordered):
-%You can also insert page breaks like this:
-%\newpage{}
 \section{Calculs}
 \subsection{Joint d'étanchéité piston-cylindre de pompe}
+\subsubsection{Schéma}
+\subsubsection{Données}
 \begin{center}
 	\begin{tabular}{|c c c|}
 		\hline
 		Paramètre & symbole & valeur de base\\
 		\hline
 		Coefficient de Poisson du caouchouc & $\mu$ & 0,5\\
-		Pourcentage d'étirement du joint torique & Stretch\% & 5\\
+		Pourcentage d'étirement du joint torique & Stretch\% & 5\%\\
 		Pourcentage de réduction de la section du joint torique & AR\% & N/A\\
-		Diamètre de la section du joint torique & W & 0\\
-		Diamètre de la section du joint torique étiré & WR & 0\\
-		Profondeur de la rainure, incluant jeu diamétrale & F & 0\\
-		Diamètre interne du reservoir & BORE & 0\\
-		Diamètre du fond de rainure sur le piston & PG & 0\\
-		Diamètre intérieur du joint torique & ID & 0\\
-		Volume du joint torique & OVol & 0\\
-		Pourcentage de remplissage de la rainure & Fill\% & 0\\
-		Largeur de la rainure & G & 0\\
-		Volume de la rainure & GVol & 0\\
+		Diamètre de la section du joint torique & W & 2,62 mm\\
+		Diamètre de la section du joint torique étiré & WR & N/A\\
+		Profondeur de la rainure, incluant jeu diamétrale & F & N/A\\
+		Compression du joint torique & SQ\% & [12;24]\%\\
+		Diamètre interne du reservoir & BORE & 38 mm\\
+		Diamètre du fond de rainure sur le piston & PG & N/A\\
+		Diamètre intérieur du joint torique & ID & N/A\\
+		Volume du joint torique & OVol & N/A\\
+		Pourcentage de remplissage de la rainure & Fill\% & N/A\\
+		Volume de la rainure & GVol & N/A\\
+		Largeur de la rainure & G & N/A\\
 		\hline
 	\end{tabular}
 \end{center}
+\subsubsection{Équations}
+\begin{equation}
+	AR\% = Stretch\% * \mu 
+\end{equation}
+\[ AR\% = 5\% * 0,5 = 2,5\% \]
+
+\begin{equation}
+	WR = W - (\frac{AR\%}{100})*W 
+\end{equation}
+\[WR = 2,62 - (\frac{2,5\%}{100})*2,62 = 2,56 mm\] 
+
+
+\begin{equation}
+	SQ\% = (\frac{WR - F}{W})*100\% 
+\end{equation}
+
+\[SQ\% = (\frac{2,56 - 2}{2,62})*100\% = 21,16\%  \]
+
+
+\[SQ\% = (\frac{2,56 - 2}{2,62})*100\% = 21,16\%  \]
+
+
+
+\begin{equation}
+	F = (\frac{BORE-PG}{2}) 
+\end{equation}
+\[ F = (\frac{38-34}{2}) = 2 mm \]
+
+\begin{equation}
+	Stretch\% = (\frac{PG -ID}{ID})*100\%
+\end{equation}
+\[ ID = \frac{PG}{(\frac{Stretch\%}{100})+1} \] 
+\[ ID = \frac{34}{(\frac{Stretch\%}{100})+1} \]
 
 
 \subsection{Encliquetage}
