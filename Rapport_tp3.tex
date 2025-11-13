@@ -6,6 +6,7 @@
 \usepackage[lmargin=2.5cm,rmargin=2.5cm,tmargin=2.5cm,bmargin=2.5cm]{geometry} % Sets custom page margins: left/right 2.5cm, top 2.5cm, bottom 2.5cm.
 
 % Loading packages
+\usepackage{amsmath}
 \usepackage{hyperref}    % Enables hyperlinks for references, URLs, and citations.
 \usepackage{xcolor}      % Provides tools for defining and using colors.
 \usepackage{graphicx}    % Allows inclusion of images and graphics.
@@ -61,7 +62,7 @@
 %\end{abstract}
 \begin{center}
     \vfill
-    \begin{figure} 
+    \begin{figure}[H] 
           \includegraphics[width=.8\linewidth]{./assets/Université_Laval_logo_et_texte.svg.png}
     \end{figure}
         \setcounter{figure}{0}
@@ -83,34 +84,37 @@
 
 
 \section{Vue CAD 3D explosée}
-\begin{itemize}
-	\item vue isométrique
-	\item Fil de fer noir ou blanc
-	\item lignes cachées supprimées
-	\item Item flèche-bulle numéroté pour chaque pièce
-	\item Tableau de nomenclature (bulle, qté, description)
-	\item Indiquer le diamètre intérieur à usiner
-	\item Indiquer sur une note le nombre total de pièces
-\end{itemize}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Explose.pdf}
+    \end{figure}
 
 \section{captures d'écran des deux enveloppes d'impression}
-\begin{itemize}
-	\item affichages des dimensions limites
-	\item arrangement des pièces 3D à l'intérieur
-\end{itemize}
-\subsection{Volume Préférentiel X-Y}
-\subsection{Volume Préférentiel Z}
 
+\subsection{Volume Préférentiel X-Y}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/XY_pref.pdf}
+    \end{figure}
+
+    \subsection{Volume Préférentiel Z}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Z_pref.pdf}
+    \end{figure}
 
 \section{Dessin de fabrication du corps de pompe}
-
-\subsection{Seulement illustration des tolérances géométriques de l'intérieur du cylindre vs l'axe du pivot du levier}
-
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/fabrication.pdf}
+    \end{figure}
 \section{rapport PolyWorks sur tolérance géométrqiue de l'axe du levier}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.0\linewidth]{./assets/Polyworks.pdf}
+    \end{figure}
 \section{Calculs}
 \subsection{Joint d'étanchéité piston-cylindre de pompe}
 \subsubsection{Schéma}
-\subsubsection{Données}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/Oring_scheme.png}
+    \end{figure}
+\subsubsection{Données techniques}
 \begin{center}
 	\begin{tabular}{|c c c|}
 		\hline
@@ -185,8 +189,11 @@
 
 \subsection{Pièce encliquetée}
 \subsubsection{DCL}
+    \begin{figure}[H] 
+	    \includegraphics[width=1.1\linewidth]{./assets/DCL.png}
+    \end{figure}
 \subsubsection{Questions techniques et description des calculs}
-\subsubsection{données techniques}
+\subsubsection{Données techniques}
 \begin{center}
 	\begin{tabular}{|c c c|}
 		\hline
@@ -205,7 +212,10 @@
 		\hline
 	\end{tabular}
 \end{center}
-\subsubsection{équations}
+
+\newpage{}
+
+\subsubsection{Équations}
 \begin{equation}
 	\varepsilon_{\text{max}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
 \end{equation}
