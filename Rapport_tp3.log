@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  13 NOV 2025 21:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  14 NOV 2025 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -991,58 +991,37 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 115--116
 
 [6 <./assets/Oring_scheme.png (PNG copy)>]
 
-[7{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<./assets/Click_scheme.png, id=326, 1250.6725pt x 1308.89pt>
-File: ./assets/Click_scheme.png Graphic file (type png)
-<use ./assets/Click_scheme.png>
-Package pdftex.def Info: ./assets/Click_scheme.png  used on input line 197.
-(pdftex.def)             Requested size: 218.51521pt x 228.6797pt.
+[7{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+
+LaTeX Warning: File `./assets/Pump_scheme.png' not found on input line 197.
 
 
-LaTeX Warning: File `./assets/Click_DCL.png' not found on input line 203.
-
-
-./Rapport_tp3.tex:203: Package pdftex.def Error: File `./assets/Click_DCL.png' not found: using draft setting.
+./Rapport_tp3.tex:197: Package pdftex.def Error: File `./assets/Pump_scheme.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 ...width=\linewidth]{./assets/Click_DCL.png}
+l.197 ...dth=\linewidth]{./assets/Pump_scheme.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 203.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 197.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-LaTeX Warning: File `./assets/Pump_scheme.png' not found on input line 213.
+LaTeX Warning: File `./assets/Pump_DCL.png' not found on input line 203.
 
 
-./Rapport_tp3.tex:213: Package pdftex.def Error: File `./assets/Pump_scheme.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 ...dth=\linewidth]{./assets/Pump_scheme.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./assets/Pump_DCL.png' not found on input line 219.
-
-
-./Rapport_tp3.tex:219: Package pdftex.def Error: File `./assets/Pump_DCL.png' not found: using draft setting.
+./Rapport_tp3.tex:203: Package pdftex.def Error: File `./assets/Pump_DCL.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 ...[width=\linewidth]{./assets/Pump_DCL.png}
+l.203 ... width=\linewidth]{./assets/Pump_DCL.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1051,11 +1030,60 @@ If that doesn't work, type  X <return>  to quit.
 
 [8]
 
-[9 <./assets/Click_scheme.png (PNG copy)>]
+LaTeX Warning: File `./assets/Piston_valve.png' not found on input line 211.
+
+
+./Rapport_tp3.tex:211: Package pdftex.def Error: File `./assets/Piston_valve.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ...th=\linewidth]{./assets/Piston_valve.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[9]
+
+LaTeX Warning: File `./assets/Lever_DCL.png' not found on input line 217.
+
+
+./Rapport_tp3.tex:217: Package pdftex.def Error: File `./assets/Lever_DCL.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 ...width=\linewidth]{./assets/Lever_DCL.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 
 [10]
-./Rapport_tp3.tex:249: Extra }, or forgotten $.
-l.249 ...}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
+<./assets/Click_scheme.png, id=349, 1250.6725pt x 1308.89pt>
+File: ./assets/Click_scheme.png Graphic file (type png)
+<use ./assets/Click_scheme.png>
+Package pdftex.def Info: ./assets/Click_scheme.png  used on input line 226.
+(pdftex.def)             Requested size: 218.50838pt x 256.06136pt.
+<./assets/Click_DCL.png, id=350, 1153.30875pt x 1355.0625pt>
+File: ./assets/Click_DCL.png Graphic file (type png)
+<use ./assets/Click_DCL.png>
+Package pdftex.def Info: ./assets/Click_DCL.png  used on input line 232.
+(pdftex.def)             Requested size: 218.515pt x 256.07922pt.
+
+
+[11]
+
+[12 <./assets/Click_scheme.png (PNG copy)> <./assets/Click_DCL.png (PNG copy)>]
+
+[13]
+./Rapport_tp3.tex:269: Extra }, or forgotten $.
+l.269 ...}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1065,11 +1093,11 @@ deleted material, e.g., by typing `I$}'.
 
 
 
-[11]
+[14]
 
-LaTeX Warning: Empty bibliography on input line 275.
+LaTeX Warning: Empty bibliography on input line 295.
 
-runsystem(latexminted cleantemp  --timestamp 20251113213628 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20251114111706 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
 
 (./Rapport_tp3.aux)
  ***********
@@ -1083,18 +1111,18 @@ Package logreq Info: Writing requests to 'Rapport_tp3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26056 strings out of 475142
- 503283 string characters out of 5765945
+ 26102 strings out of 475142
+ 504668 string characters out of 5765945
  1554888 words of memory out of 5000000
- 48695 multiletter control sequences out of 15000+600000
+ 48734 multiletter control sequences out of 15000+600000
  612048 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,8n,81p,700b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,81p,1013b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Rapport_tp3.pdf (13 pages, 2028434 bytes).
+Output written on Rapport_tp3.pdf (16 pages, 2360541 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 52 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 

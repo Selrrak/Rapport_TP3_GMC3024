@@ -126,7 +126,7 @@
 		Diamètre de la section du joint torique & W & 2,62 mm\\
 		Diamètre de la section du joint torique étiré & WR & N/A\\
 		Profondeur de la rainure, incluant jeu diamétrale & F & N/A\\
-		Compression du joint torique & SQ\% & [12;24]\%\\
+		Compression du joint torique & SQ\% & 21\%$\in$[12;24]\%\\
 		Diamètre interne du reservoir & BORE & 38 mm\\
 		Diamètre du fond de rainure sur le piston & PG & N/A\\
 		Diamètre intérieur du joint torique & ID & N/A\\
@@ -194,34 +194,54 @@
     
     \begin{subfigure}[t]{0.48\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{./assets/Click_scheme.png}
+        \includegraphics[height= 10 cm, width=\linewidth]{./assets/Pump_scheme.png}
         \caption{Références des dimensions}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.48\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{./assets/Click_DCL.png}
+	\includegraphics[height = 10 cm, width=\linewidth]{./assets/Pump_DCL.png}
         \caption{DCL}
     \end{subfigure}
-    \caption{Pièce encliquetée}
+    \caption{Pompe entière}
 \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{./assets/Piston_valve.png}
+    \caption{Valve du piston}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{./assets/Lever_DCL.png}
+    \caption{DCL et dimensions du Bras de levier}
+\end{figure}
+
 \begin{figure}[H]
     \centering
     
     \begin{subfigure}[t]{0.48\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{./assets/Pump_scheme.png}
+        \includegraphics[height=9 cm, width=\linewidth]{./assets/Click_scheme.png}
         \caption{Références des dimensions}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.48\linewidth}
         \centering
-        \includegraphics[width=\linewidth]{./assets/Pump_DCL.png}
+        \includegraphics[height= 9 cm, width=\linewidth]{./assets/Click_DCL.png}
         \caption{DCL}
     \end{subfigure}
-    \caption{Pompe entière}
+    \caption{Pièce encliquetée}
 \end{figure}
+
 \subsubsection{Questions techniques et description des calculs}
+	\begin{enumerate}
+		\item La pièce encliquetée cède-t-elle lorsque l'utilisateur actionne la pompe? \par
+			La charge nécessaire au flambage de la pièce ainsi que la contrainte de rupture en compression du matériau seront comparer à la force/contrainte subit par la pièce encliquetée. Celle-ci est liée à celle pour faire bouger le piston par l'entremise du bras de levier. Un diagramme de corps libre permet de trouver ce lien. Quant à la force pour faire bouger le piston, on l'estime maximale lorsque le piston est dans sa phase de descente, juste avant que les valves qui le traverse ne s'ouvrent. Si on suppose que le piston est parfaitement étanche, on peux alors supposer que la pression au dessus du piston est nulle, alors que celle sous celui-ci est égale à la pression de craquage de ses valves plus la friction entre les joints toriques et le bâti de la pompe. Cette dernière est évalué à l'aide du pourcentage de compression des joints toriques, alors que la pression de craquage est une fonction de la précharge sur les ressorts des valves à bille. 
+		\item La pièce cède-t-elle sous la déformation causée par l'encliquetage? \par
+			Calculer la déformation de la pièce encliquetée et la comparer à la déformation maximale possible du matériau en fonction de son orientation d'impression.
+	\end{enumerate}
 \subsubsection{Données techniques}
 \begin{center}
 	\begin{tabular}{|c c c|}
