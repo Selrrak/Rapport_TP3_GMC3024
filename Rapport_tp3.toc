@@ -11,7 +11,7 @@
 \contentsline {subsubsection}{\numberline {5.1.2}Données techniques}{7}{subsubsection.5.1.2}%
 \contentsline {subsubsection}{\numberline {5.1.3}Équations}{7}{subsubsection.5.1.3}%
 \contentsline {subsection}{\numberline {5.2}Pièce encliquetée}{9}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}DCL}{9}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1}Schémas}{9}{subsubsection.5.2.1}%
 \contentsline {subsubsection}{\numberline {5.2.2}Questions techniques et description des calculs}{10}{subsubsection.5.2.2}%
 \contentsline {subsubsection}{\numberline {5.2.3}Données techniques}{10}{subsubsection.5.2.3}%
 \contentsline {subsubsection}{\numberline {5.2.4}Équations}{11}{subsubsection.5.2.4}%
