@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  14 NOV 2025 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  14 NOV 2025 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -890,7 +890,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 58.
-<./assets/Université_Laval_logo_et_texte.svg.png, id=68, 2569.6pt x 1116.17pt>
+<./assets/Université_Laval_logo_et_texte.svg.png, id=72, 2569.6pt x 1116.17pt>
 File: ./assets/Université_Laval_logo_et_texte.svg.png Graphic file (type png)
 <use ./assets/Université_Laval_logo_et_texte.svg.png>
 Package pdftex.def Info: ./assets/Université_Laval_logo_et_texte.svg.png  used on input line 66.
@@ -918,7 +918,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
                    \relax 
 l.82 \newpage
               [2]
-<./assets/Explose.pdf, id=100, 794.97pt x 614.295pt>
+<./assets/Explose.pdf, id=105, 794.97pt x 614.295pt>
 File: ./assets/Explose.pdf Graphic file (type pdf)
 <use ./assets/Explose.pdf>
 Package pdftex.def Info: ./assets/Explose.pdf  used on input line 88.
@@ -928,7 +928,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
-<./assets/XY_pref.pdf, id=101, 794.97pt x 614.295pt>
+<./assets/XY_pref.pdf, id=106, 794.97pt x 614.295pt>
 File: ./assets/XY_pref.pdf Graphic file (type pdf)
 <use ./assets/XY_pref.pdf>
 Package pdftex.def Info: ./assets/XY_pref.pdf  used on input line 95.
@@ -941,7 +941,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 95--96
 
 
 [1 <./assets/Explose.pdf>]
-<./assets/Z_pref.pdf, id=119, 794.97pt x 614.295pt>
+<./assets/Z_pref.pdf, id=124, 794.97pt x 614.295pt>
 File: ./assets/Z_pref.pdf Graphic file (type pdf)
 <use ./assets/Z_pref.pdf>
 Package pdftex.def Info: ./assets/Z_pref.pdf  used on input line 100.
@@ -954,7 +954,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 100--101
 
 
 [2 <./assets/XY_pref.pdf>]
-<./assets/fabrication.pdf, id=177, 794.97pt x 614.295pt>
+<./assets/fabrication.pdf, id=182, 794.97pt x 614.295pt>
 File: ./assets/fabrication.pdf Graphic file (type pdf)
 <use ./assets/fabrication.pdf>
 Package pdftex.def Info: ./assets/fabrication.pdf  used on input line 105.
@@ -967,123 +967,126 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 105--106
 
 
 [3 <./assets/Z_pref.pdf>]
-<./assets/Polyworks.pdf, id=234, 614.295pt x 794.97pt>
+<./assets/Polyworks.pdf, id=239, 614.295pt x 794.97pt>
 File: ./assets/Polyworks.pdf Graphic file (type pdf)
 <use ./assets/Polyworks.pdf>
-Package pdftex.def Info: ./assets/Polyworks.pdf  used on input line 109.
+Package pdftex.def Info: ./assets/Polyworks.pdf  used on input line 110.
 (pdftex.def)             Requested size: 455.24411pt x 589.14197pt.
 
 
 [4 <./assets/fabrication.pdf>]
-<./assets/Oring_scheme.png, id=282, 1436.36626pt x 943.525pt>
+
+[5 <./assets/Polyworks.pdf>]
+<./assets/signature.png, id=323, 1330.9725pt x 265.99374pt>
+File: ./assets/signature.png Graphic file (type png)
+<use ./assets/signature.png>
+Package pdftex.def Info: ./assets/signature.png  used on input line 117.
+(pdftex.def)             Requested size: 204.85846pt x 40.94043pt.
+<./assets/Oring_scheme.png, id=324, 1436.36626pt x 943.525pt>
 File: ./assets/Oring_scheme.png Graphic file (type png)
 <use ./assets/Oring_scheme.png>
-Package pdftex.def Info: ./assets/Oring_scheme.png  used on input line 115.
+Package pdftex.def Info: ./assets/Oring_scheme.png  used on input line 123.
 (pdftex.def)             Requested size: 500.77129pt x 328.94296pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 115--116
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
 
 
-[5 <./assets/Polyworks.pdf>]
-
-[6 <./assets/Oring_scheme.png (PNG copy)>]
+[6 <./assets/signature.png (PNG copy)> <./assets/Oring_scheme.png (PNG copy)>]
 
 [7{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
-
-LaTeX Warning: File `./assets/Pump_scheme.png' not found on input line 197.
-
-
-./Rapport_tp3.tex:197: Package pdftex.def Error: File `./assets/Pump_scheme.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 ...dth=\linewidth]{./assets/Pump_scheme.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 197.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: File `./assets/Pump_DCL.png' not found on input line 203.
-
-
-./Rapport_tp3.tex:203: Package pdftex.def Error: File `./assets/Pump_DCL.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ... width=\linewidth]{./assets/Pump_DCL.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./assets/Pump_DCL.png, id=341, 1432.35126pt x 1211.52625pt>
+File: ./assets/Pump_DCL.png Graphic file (type png)
+<use ./assets/Pump_DCL.png>
+Package pdftex.def Info: ./assets/Pump_DCL.png  used on input line 202.
+(pdftex.def)             Requested size: 455.24411pt x 385.05276pt.
 
 
 [8]
-
-LaTeX Warning: File `./assets/Piston_valve.png' not found on input line 211.
-
-
-./Rapport_tp3.tex:211: Package pdftex.def Error: File `./assets/Piston_valve.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.211 ...th=\linewidth]{./assets/Piston_valve.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./assets/Piston_DCL.png, id=353, 836.12375pt x 1186.4325pt>
+File: ./assets/Piston_DCL.png Graphic file (type png)
+<use ./assets/Piston_DCL.png>
+Package pdftex.def Info: ./assets/Piston_DCL.png  used on input line 208.
+(pdftex.def)             Requested size: 455.24411pt x 645.98643pt.
 
 
-
-[9]
-
-LaTeX Warning: File `./assets/Lever_DCL.png' not found on input line 217.
-
-
-./Rapport_tp3.tex:217: Package pdftex.def Error: File `./assets/Lever_DCL.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.217 ...width=\linewidth]{./assets/Lever_DCL.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[10]
-<./assets/Click_scheme.png, id=349, 1250.6725pt x 1308.89pt>
+[9 <./assets/Pump_DCL.png (PNG copy)>]
+<./assets/Click_scheme.png, id=361, 1250.6725pt x 1308.89pt>
 File: ./assets/Click_scheme.png Graphic file (type png)
 <use ./assets/Click_scheme.png>
-Package pdftex.def Info: ./assets/Click_scheme.png  used on input line 226.
+Package pdftex.def Info: ./assets/Click_scheme.png  used on input line 217.
 (pdftex.def)             Requested size: 218.50838pt x 256.06136pt.
-<./assets/Click_DCL.png, id=350, 1153.30875pt x 1355.0625pt>
+<./assets/Click_DCL.png, id=362, 1153.30875pt x 1355.0625pt>
 File: ./assets/Click_DCL.png Graphic file (type png)
 <use ./assets/Click_DCL.png>
-Package pdftex.def Info: ./assets/Click_DCL.png  used on input line 232.
+Package pdftex.def Info: ./assets/Click_DCL.png  used on input line 223.
 (pdftex.def)             Requested size: 218.515pt x 256.07922pt.
 
 
-[11]
+[10 <./assets/Piston_DCL.png (PNG copy)>]
 
-[12 <./assets/Click_scheme.png (PNG copy)> <./assets/Click_DCL.png (PNG copy)>]
+[11 <./assets/Click_scheme.png (PNG copy)> <./assets/Click_DCL.png (PNG copy)>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 246.
 
-[13]
-./Rapport_tp3.tex:269: Extra }, or forgotten $.
-l.269 ...}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
+
+LaTeX Warning: Command \^ invalid in math mode on input line 247.
+
+./Rapport_tp3.tex:250: Missing $ inserted.
+<inserted text> 
+                $
+l.250 ...box.com/friction-coefficients-d_778.html}
+                                                  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Rapport_tp3.tex:250: Missing $ inserted.
+<inserted text> 
+                $
+l.250 ...box.com/friction-coefficients-d_778.html}
+                                                  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Rapport_tp3.tex:253: Missing $ inserted.
+<inserted text> 
+                $
+l.253 ...nne du piston & $A_{piston}$ & 1,07e-3 m^
+                                                  2\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Rapport_tp3.tex:254: Missing $ inserted.
+<inserted text> 
+                $
+l.254 		F
+         orce maximale pour déplacer le piston vers le bas & $F_{piston}$ &...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (29.22476pt too wide) in alignment at lines 238--279
+ [] [] [] 
+ []
+
+[12]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 284.
+ (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+LaTeX Warning: Command \^ invalid in math mode on input line 294.
+
+
+
+[13{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+./Rapport_tp3.tex:337: Extra }, or forgotten $.
+l.337 ...}} = 0.2\,\varepsilon_{\text{ruptureXY}}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1095,34 +1098,67 @@ deleted material, e.g., by typing `I$}'.
 
 [14]
 
-LaTeX Warning: Empty bibliography on input line 295.
+[15]
 
-runsystem(latexminted cleantemp  --timestamp 20251114111706 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
+LaTeX Warning: Empty bibliography on input line 363.
+
+runsystem(latexminted cleantemp  --timestamp 20251114154558 7A0CD9ECF55ED98791FDEC165DD21AF5)...executed safely (allowed).
 
 (./Rapport_tp3.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `Rapport_tp3.out' has not changed.
-(rerunfilecheck)             Checksum: 2D2B3B1574A355DF37606B09B105B293;3063.
+
+
+Package rerunfilecheck Warning: File `Rapport_tp3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Rapport_tp3.out':
+(rerunfilecheck)             Before: 2048061FB95AF45E69D1FEFCE30396F3;3239
+(rerunfilecheck)             After:  F4C7886C7741C5506539B1AB301917A7;3342.
 Package logreq Info: Writing requests to 'Rapport_tp3.run.xml'.
 \openout1 = `Rapport_tp3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26102 strings out of 475142
- 504668 string characters out of 5765945
- 1554888 words of memory out of 5000000
- 48734 multiletter control sequences out of 15000+600000
- 612048 words of font info for 68 fonts, out of 8000000 for 9000
+ 26034 strings out of 475142
+ 502024 string characters out of 5765945
+ 1561941 words of memory out of 5000000
+ 48637 multiletter control sequences out of 15000+600000
+ 621668 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,8n,81p,1013b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Rapport_tp3.pdf (16 pages, 2360541 bytes).
+ 75i,11n,81p,1013b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.2.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.1.3} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.1.2} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsubsection.5.1.1} has been referenced but does not exist, replaced by a fixed one
+
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on Rapport_tp3.pdf (17 pages, 3239486 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 325 compressed objects within 4 object streams
- 59 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 380 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
